@@ -12,6 +12,7 @@
         <input type="text" placeholder="name" name="name">
         <input type="text" placeholder="quote" name="quote">
         <button type="submit">Submit</button>
+    </form>    
         <h2>Quotes</h2>
 
         <ul class="quotes">
@@ -24,7 +25,8 @@
             <span><%= quotes[i].quote %></span>
             </li>
             <% } %>
-    </form>
+        </ul>
+    
 
     <div>
         <h2>Darth Vadar invades!</h2>
@@ -34,7 +36,18 @@
         </p>
         <button id="update-button">Replace Yoda's quote</button>
     </div>
+    <div>
+        <h2>Remove Darth Vadar!</h2>
+        <p>
+        Delete one Darth Vadar's quote. Does nothing if there are no
+        more Darth
+        Vadar's quote
+        </p>
+        <button id="delete-button">Delete Darth Vadar's quote</button>
+    </div>
+    <div id="message"></div>
     <script src="/main.js"></script>
+
         
 </body>
 </html>
