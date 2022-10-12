@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: yellow;
+    font-family: Helvetica;
+}
+
+h1 {
+    text-align: center;
+}
+#inputDiv {
+    text-align: center;
+}
+
+#quoteDiv {
+    width: 70%;
+    margin: 5%;
+}
+
+
+#darthDiv,
+#deleteDiv {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    margin: -2%;
+}
+
+
